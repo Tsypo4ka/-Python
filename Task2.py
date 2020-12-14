@@ -1,7 +1,5 @@
 seconds = int(input("Enter time in seconds: "))
 
-seconds = seconds % (24 * 3600)
-
 hours = seconds // 3600
 
 seconds %= 3600
